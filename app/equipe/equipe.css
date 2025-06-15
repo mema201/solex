@@ -97,7 +97,7 @@
 .container2 .image2 .image {
     height: 20vw;
     width: 30%;
-    background: url("/Image/image-directrice.jpg");
+    background: url("/image/Image-directrice.jpg");
     background-size: cover;
     background-position: top;
 }
