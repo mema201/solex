@@ -1,0 +1,99 @@
+.container-cform {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-cform .contact-form {
+  background: #a5b4ac;
+  border: 2px solid #aac6c3;
+  padding: 30px;
+  width: 700px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.container-cform .contact-form h2 {
+  margin-top: 0;
+}
+
+.container-cform .contact-form input,
+.container-cform .contact-form textarea {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.container-cform .contact-form textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+}
+
+.container-cform .contact-form button {
+  background-color: #C38C2C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.container-cform .rendez-vous {
+  background-color: #102417;
+  color: white;
+  padding: 30px;
+  max-width: 250px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-cform .rendez-vous h3 {
+  margin-top: 0;
+}
+.container-cform .rendez-vous p{
+  margin: 1vw 0;
+}
+.container-cform .rendez-vous button {
+  margin-top: 15px;
+  background-color: #C38C2C;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.container-cform .info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.container-cform .info-box {
+  background-color: #b16928;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.container-cform .map {
+  margin: 0 50px ;
+  height: 250px;
+  border-radius: 10px;
+  width: 80%;
+  overflow: hidden;
+}
+@media (max-width: 1024px){
+  .contact-form{
+    margin-top: 20vw;
+  }
+}

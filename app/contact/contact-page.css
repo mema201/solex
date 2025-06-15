@@ -1,0 +1,83 @@
+.containerCpage{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#D3DCD7,#fff);
+    border: 1px solid;
+}
+.page1{
+    margin-top: 9vw;
+}
+.container-cpage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  max-width: 1400px;
+  margin: auto;
+margin-top: 3vw;
+margin-bottom: 5vw;
+align-items: center;
+
+}
+
+.container-cpage .left, .right {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.container-cpage h2 {
+  font-weight: bold;
+  color: #1d1d1d;
+}
+
+.container-cpage .schedule {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.container-cpage .day{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+    padding: 10px 15px;
+}
+.container-cpage .span1 {
+
+
+  width: 50px;
+  background-color: #c8d7ca;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 10px;
+}
+.container-cpage .span2{
+width: 250px;
+box-shadow: 2px 2px 3px 2px rgba(15, 15, 15, 0.1);
+display: flex;
+align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+.container-cpage .right p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container-cpage .social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+.social-icons{
+  display: flex;
+}
+.container-cpage .social-icons img:hover {
+  filter: grayscale(0%);
+}
+@media(max )

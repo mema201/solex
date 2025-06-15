@@ -1,0 +1,261 @@
+.container2 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#fff 40%, #D3DCD7 95%, #fff);
+    border: 1px solid;
+    margin-top: 2vw;
+}
+.container2 h3 {
+    color: #0D3D20;
+}
+.container2 .header-image {
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    margin-top: 100px;
+    border-radius: 10px;
+    background: url('/image/equipe-header.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.container2 .header-image::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 11, 11, 0.3);
+    z-index: 1;
+    border-radius: 10px;
+}
+.container2 .header-image p {
+    width: 50%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    z-index: 2;
+}
+.container2 .header-image h2 {
+    color: #C38C2C;
+    font-size: 35px;
+    z-index: 2;
+}
+.container2 .image-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container2 .image {
+    width: 30%;
+    height: 130px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.container2 .image-texte {
+    width: 55%;
+    text-align: start;
+}
+.container2 .image-texte h3 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.container2 .image-texte p {
+    font-size: 18px;
+}
+.container2 .titre {
+    padding-left: 40px;
+    font-size: 14px;
+    color: #C38C2C;
+}
+.imagep {
+    background-image: url('/image/image3 (2).jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container2 .image1 .image-texte p {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #C38C2C;
+}
+.container2 .image1 .image {
+    height: 170px;
+}
+.container2 .image2 .image {
+    height: 20vw;
+    width: 30%;
+    background: url("/image/image-directrice.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.container2 .image2 {
+    margin-bottom: 100px;
+}
+.container2 .image2 p{
+    border-left: 2px solid #C38C2C;
+    padding-left: 1.5vw;
+}
+.container2 .equipe-container {
+    width: 70%;
+    margin: auto;
+    text-align: start;
+    margin-bottom: 80px;
+}
+.equipe-container p {
+    width: 50%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.equipe-container h2 {
+    font-size: 26px;
+}
+.equipe-grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 50px;
+}
+.equipe {
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.equipe p {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+.equipe h3 {
+    margin-top: 5px;
+    font-size: 1.7vw;
+}
+.equipe img {
+    height: 60%;
+    width: 100%;
+    margin-bottom: 2px;
+    object-fit: cover;
+    object-position: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ✅ Responsive tablette */
+@media (max-width: 1026px) {
+     
+    .container2{
+        margin-top: 15vw;
+    }
+
+    .container2 .header-image h2 {
+        font-size: 35px !important;
+    }
+    .container2 .header-image {
+        height: 180px;
+    }
+    .container2 .header-image h2 {
+        font-size: 22px;
+    }
+    .container2 .header-image p {
+        font-size: 16px;
+        width: 70%;
+    }
+    .container2 .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container2 .image,
+    .container2 .image2 .image {
+        width: 70%;
+        height: 400px !important;
+        background-position: top;
+
+    }
+    .container2 .image-texte {
+        width: 90%;
+    }
+    .equipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* ✅ Responsive mobile */
+@media (max-width: 768px) {
+    .container2{
+        margin-top: 20vw;
+    }
+    .container2 .header-image {
+        margin-top: 60px;
+        height: 160px;
+    }
+    .container2 .header-image h2 {
+        font-size: 30px;
+    }
+    .container2 .header-image p {
+        font-size: 14px;
+        width: 90%;
+    }
+    .container2 .image,
+    .container2 .image2 .image {
+        width: 100%;
+        height: 150px;
+    }
+    .container2 .image-texte {
+        width: 100%;
+    }
+    .equipe-container p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .equipe-container h2 {
+        font-size: 20px;
+    }
+    .equipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .equipe {
+        height: auto;
+    }
+    .equipe p,
+    .equipe h3 {
+        font-size: 16px;
+    }
+        .image{
+        height: 250px;
+    }
+
+}
+@media (max-width: 490px){
+    .container2{
+        margin-top: 27vw;
+    }
+    .container2 .header-image{
+        width: 100%;
+        
+    }
+    .container2 .header-image h2{
+        font-size: 25px !important;
+    }
+    .equipe-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}

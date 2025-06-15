@@ -1,0 +1,487 @@
+
+.container1 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#fff 20%, #D3DCD7, #fff);
+    margin-top: 2vw;
+}
+
+.container1 h2 {
+    color: #0D3D20;
+}
+.container1 .header_image {
+    width: 90%;
+    margin: auto;
+    height: 350px;
+margin-top: 10vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/image/header-photo.png");
+    background-position-y: bottom;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.container1 .header_image::before {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 10px;
+}
+.container1 .header_texte {
+    color: white;
+    width: 50%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+.header_texte p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-shadow:
+        0 0 10px white,
+        0 0 20px white,
+        0 0 40px white,
+        0 0 80px white,
+        0 0 120px white,
+        0 0 160px white;
+}
+.header_texte h2 {
+    font-size: 26px;
+color: white;
+}
+
+.container1 .button-group {
+    display: flex;
+    justify-content: space-around;
+}
+.button-group button, .button1 {
+    width: 45%;
+    padding: 10px;
+    font-size: 18px;
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7cbc9;
+    color: black;
+    cursor: pointer;
+    width: 45%;
+}
+.button1:hover {
+    background-color: #6e6f6f;
+}
+.rond {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+strong {
+    color: #C38C2C;
+}
+.rdv {
+    background-color: #C38C2C;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.rdv:hover {
+    background-color: #7c591c;
+}
+.apropos-container {
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.apropos-image {
+    width: 35%;
+    height: 200px;
+    border-radius: 8px;
+    background: url("/image/apropos.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.apropos-texte {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.h2 {
+    width: 90%;
+    margin: auto;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.apropos-texte h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.texte p {
+    font-size: 20px;
+}
+.texte {
+    border-left: 5px solid #C38C2C;
+    padding: 0 20px;
+}
+.apropos-texte button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #D3DCD7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+}
+.apropos-texte button:hover {
+    background-color: #6e6f6f;
+    cursor: pointer;
+}
+.service-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.service-container p {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+    text-align: start;
+}
+.service {
+    width: 100%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3vw;
+}
+.service-items {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.service-items h3 {
+    padding-bottom: 2vw;
+    border-bottom: 1px solid #d9dada;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.service-items p{
+    width: 100%;
+}
+.service-items button {
+    display: flex;
+    font-size: 1.6vw;
+    margin-top: 20px;
+    padding: 0.7vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #afafaf;
+    border-radius: 0.5vw;
+}
+.service-items button:hover {
+    background-color: #6e6f6f;
+}
+.item1 button {
+    width: 80%;
+    padding: 15px 10px;
+    font-size: 1.2vw;
+    margin-top: 25px;
+    background-color: #C38C2C;
+    color: white;
+    border-radius: 8px;
+}
+.item1 button:hover {
+    background-color: #82570e;
+}
+.service-items p {
+    font-size: 1.4vw;
+    text-align: center;
+}
+.juridique-container {
+    width: 90%;
+    margin: auto;
+    text-align: start;
+    margin-top: 100px;
+}
+.juridique-container h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.juridique-container p {
+    margin-top: 20px;
+    width: 70%;
+    font-size: 20px;
+
+}
+.video-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.juridique-video {
+    width: 20%;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 20px;
+}
+.juridique {
+    width: 70%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.juridique-items {
+    height: auto;
+    border: 1px solid #0D3D20;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #c8e8d4;
+    margin-bottom: 80px;
+}
+.juridique-items h3 {
+    font-size: 24px;
+}
+.juridique-items p {
+    font-size: 18px;
+}
+.flex1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flex1 button {
+    background-color: #C38C2C;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.flex1 button .rond {
+    background-color: #7c591c;
+}
+.flex1 button:hover {
+    background-color: #835e1e;
+}
+
+/* Responsive tablette */
+@media (max-width: 1024px) {
+
+    .service {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .header_texte p, .texte p {
+        font-size: 18px;
+    }
+   
+    
+    .header_texte h2,
+    .service-container h2,
+    .juridique-container h2 {
+        font-size: 28px;
+    }
+}
+
+.header_texte{
+    width: 70% !important;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+    .container1{
+          background: linear-gradient(#fff 10%, #D3DCD7, #fff);
+    }
+    .service-items button {
+
+    font-size: 16px;
+    border-radius: 10px; 
+    padding: 10px 30px;
+
+}
+.service-items h3{
+    font-size: 4vw;
+}
+    .header_texte{
+        width: 90% !important;
+        padding: 30px !important;
+        
+    }
+     .video-container{
+        flex-direction: column;
+
+    }
+   .header_image{
+    height: 450px !important;
+    margin-top: 200px !important;
+   }
+   .container1 .header_image::before{
+    height: 450px;
+    width: 100%;
+    top: 0;
+   }
+    .h2{
+                margin-bottom: -4vw ;
+    }
+.juridique-video{
+        width: 80% !important;
+        margin: auto;
+    }
+    
+    .apropos-container {
+        flex-direction: column;
+        align-items: start;
+    }
+    .apropos-image, .apropos-texte {
+        width: 100%;
+        height: auto;
+    }
+    .service {
+        grid-template-columns: 1fr;
+    }
+    .juridique {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .service-items, .juridique-items {
+        height: auto;
+        padding: 20px;
+    }
+    .flex1 {
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+    }
+    .flex1 button {
+        width: 100%;
+        height: 60px;
+        font-size: 18px;
+    }
+    
+    .button-group {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .button-group button, .button1 {
+        width: 100%;
+    }
+    .apropos-texte h3, .juridique-items h3 {
+        font-size: 22px;
+    }
+    .apropos-texte p, .juridique-items p, .service-container p, .juridique-container p {
+        font-size: 16px;
+    }
+    .apropos-texte button {
+        width: 100%;
+        height: 60px;
+        font-size: 18px;
+    }
+    .rond {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 510px){
+.header_texte{
+        width: 100% !important;
+        padding: 30px !important;
+        
+    }
+    .header_image{
+        margin-top: 120px !important;
+    }
+}
+@media (max-width: 437px){
+     .h2{
+        margin-bottom: -7vw ;
+        text-align: center;
+    }
+        .header_image {
+        height: 150vw !important;
+        width: 100% !important;
+ margin-top: 100px !important;
+    }
+    .container1 .header_image::before{
+        height: 150vw;
+    }
+    .header_texte{
+        width: 100% !important;
+        padding: 10px !important;
+        
+    }
+
+@media (max-width: 320px){
+.header_image{
+    height: 180vw !important;
+    
+}
+
+.container1 .header_image::before{
+    height: 180vw;
+}
+}
+}
