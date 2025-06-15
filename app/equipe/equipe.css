@@ -97,7 +97,7 @@
 .container2 .image2 .image {
     height: 20vw;
     width: 30%;
-    background: url("/image/image-directrice.jpg");
+    background: url("/Image/image-directrice.jpg");
     background-size: cover;
     background-position: top;
 }
@@ -249,7 +249,7 @@
     }
     .container2 .header-image{
         width: 100%;
-        
+
     }
     .container2 .header-image h2{
         font-size: 25px !important;
