@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Espace éducation juridique",
-  description: "Plateforme d'éducation juridique",
+  title: "Solex",
+  description: "Plateforme juridique",
     generator: 'v0.dev'
 }
 
