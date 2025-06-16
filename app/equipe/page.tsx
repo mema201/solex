@@ -4,7 +4,6 @@ import { Input } from "@/components/ui/input";
 import Nav from "../nav/nav"
 import "./equipe.css"
 import Link from "next/link"
-import image2  from "../image/image2 (2).jpg"
 
 export default function Equipe(){
     return(
