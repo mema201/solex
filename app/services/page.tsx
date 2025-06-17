@@ -169,7 +169,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              {/* Presentation Cards*/}
+              {/* Presentation Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
                 {[1, 2, 3].map((i) => (
                   <div
@@ -228,6 +228,93 @@ export default function ServicesPage() {
                 culpa qui officia deserunt mollit anim id est laborum.
               </p>
 
+{/*Audit */}
+              <div className="mb-8 md:mb-12">
+                <h2 className="text-xl md:text-2xl font-bold text-green-900 mb-3 md:mb-4">
+                  Audit
+                </h2>
+                <p className="text-gray-600 text-sm md:text-base">
+                 Pour garantir une justice efficace, nous proposons un service d’audit en justice qui permet d’évaluer les procédures, optimiser les performances et renforcer la confiance des usagers dans le système judiciaire.
+                </p>
+              </div>
+
+              {/* Découvre l'offre de service */}
+              <div className="mb-8 md:mb-12">
+                <h2 className="text-xl md:text-2xl font-bold text-amber-600 mb-4 md:mb-6 text-center">
+                  Découvre l&apos;offre de service
+                </h2>
+                <div className="space-y-3 md:space-y-4">
+                  <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
+                    <p className="text-xs md:text-sm">
+                      Pour nous, chaque client est unique et mérite un service
+                      de l&apos;humain, de la justice et du progrès. Notre
+                      mission ne consiste pas seulement à accompagner
+                      juridiquement nos clients, mais à le faire avec
+                      excellence, intégrité et humanité.
+                    </p>
+                  </div>
+                  <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
+                    <p className="text-xs md:text-sm">
+                      Pour nous le droit est avant tout un outil au service de
+                      l'humain, de la justice et du progrès. Notre mission ne
+                      consiste pas seulement à accompagner juridiquement nos
+                      clients, mais à le faire avec excellence, intégrité et
+                      humanité.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-gray-600 mb-8 md:mb-12 text-sm md:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+{/*Accompagnement juridique sur mesure */}
+              <div className="mb-8 md:mb-12">
+                <h2 className="text-xl md:text-2xl font-bold text-green-900 mb-3 md:mb-4">
+                  Accompagnement juridique sur mesure
+                </h2>
+                <p className="text-gray-600 text-sm md:text-base">
+                 Face à la complexité du droit, nous proposons un accompagnement juridique sur mesure, adapté à vos besoins, pour vous assister efficacement et garantir la sécurité de vos démarches.
+                </p>
+              </div>
+
+              {/* Découvre l'offre de service */}
+              <div className="mb-8 md:mb-12">
+                <h2 className="text-xl md:text-2xl font-bold text-amber-600 mb-4 md:mb-6 text-center">
+                  Découvre l&apos;offre de service
+                </h2>
+                <div className="space-y-3 md:space-y-4">
+                  <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
+                    <p className="text-xs md:text-sm">
+                      Pour nous, chaque client est unique et mérite un service
+                      de l&apos;humain, de la justice et du progrès. Notre
+                      mission ne consiste pas seulement à accompagner
+                      juridiquement nos clients, mais à le faire avec
+                      excellence, intégrité et humanité.
+                    </p>
+                  </div>
+                  <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
+                    <p className="text-xs md:text-sm">
+                      Pour nous le droit est avant tout un outil au service de
+                      l'humain, de la justice et du progrès. Notre mission ne
+                      consiste pas seulement à accompagner juridiquement nos
+                      clients, mais à le faire avec excellence, intégrité et
+                      humanité.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-gray-600 mb-8 md:mb-12 text-sm md:text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+
               {/* Solutions juridiques */}
               <div>
                 <h2 className="text-xl md:text-2xl font-bold text-green-900 mb-6 md:mb-8">
@@ -235,6 +322,7 @@ export default function ServicesPage() {
                 </h2>
                 <div className="space-y-6 md:space-y-8">
                   {/* Solution 1 */}
+                  {/* Solution SMARTLEX */}
                   <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
                     <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
                       <span className="text-white text-sm md:text-base">
@@ -243,18 +331,23 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
-                        // Solutions juridiques 
+                        Solutions juridiques 1
                       </h3>
                       <p className="text-xs md:text-sm text-gray-600">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. culpa qui officia deserunt mollit anim id
                         est laborum.
+                        SMARTLEX
+                      </p>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution d’intelligence juridique conçue pour les PME et les organisations qui souhaitent transformer le droit en un avantage concurrentiel et un levier stratégique au service de leurs ambitions.
                       </p>
                     </div>
                   </div>
 
                   {/* Solution 2 */}
+                                  {/* Solution LEGALSHIELD */}
                   <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
                     <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
                       <span className="text-white text-sm md:text-base">
@@ -270,6 +363,95 @@ export default function ServicesPage() {
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. culpa qui officia deserunt mollit anim id
                         est laborum.
+                      LEGALSHIELD
+                      </p>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution de sécurité juridique pensée pour offrir aux PME et aux organisations un environnement juridique clair et maîtrisé, limitant l’exposition aux risques. Ce système repose sur une cartographie précise des risques juridiques pour une protection adaptée et proactive.
+                      </p>
+                    </div>
+                  </div>
+
+                                  {/* Solution JURITRACK */}
+                  <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                    <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-sm md:text-base">
+                        Image
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
+                        JURITRACK
+                      </h3>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution automatisée de suivi et de rappel des obligations légales, avec l’envoi de notifications par SMS ou WhatsApp aux dirigeants de PME et d’organisations, pour garantir le respect des échéances réglementaires.
+                      </p>
+                    </div>
+                  </div>
+
+                                                    {/* Solution MEDILEX */}
+                  <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                    <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-sm md:text-base">
+                        Image
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
+                        MEDILEX
+                      </h3>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution de médiation en ligne pour favoriser le règlement amiable des litiges de façon rapide, sécurisée et conforme aux principes du droit OHADA et aux réglementations ivoiriennes. Parce qu’un accord juste et équitable vaut souvent mieux qu’un long procès.
+                      </p>
+                    </div>
+                  </div>
+
+                                                     {/* Solution SOLEXFORM */}
+                  <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                    <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-sm md:text-base">
+                        Image
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
+                        SOLEXFORM
+                      </h3>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution digitale sur mesure, conçue pour accompagner les PME, start-ups, organisations et particuliers dans toutes leurs formalités administratives et légales. Elle offre un service sécurisé, confidentiel et efficace, pour des démarches simplifiées et réalisées en toute sérénité.
+                      </p>
+                    </div>
+                  </div>
+
+                                                     {/* Solution LEXWATCH*/}
+                  <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                    <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-sm md:text-base">
+                        Image
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
+                      LEXWATCH
+                      </h3>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution innovante de veille juridique, conçue pour permettre aux entreprises et organisations de suivre en temps réel les évolutions législatives, réglementaires et jurisprudentielles ayant un impact sur leur activité.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Solution SOLEXGOUV */}
+                  <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
+                    <div className="w-full sm:w-48 h-32 bg-gray-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <span className="text-white text-sm md:text-base">
+                        Image
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
+                        SOLEXGOUV
+                      </h3>
+                      <p className="text-xs md:text-sm text-gray-600">
+                        Une solution digitale et juridique conçue pour accompagner les PME, startups et organisations dans la mise en place, le renforcement et l’optimisation de leur gouvernance, en assurant transparence, conformité et performance.
                       </p>
                     </div>
                   </div>
@@ -278,31 +460,38 @@ export default function ServicesPage() {
             </div>
 
             {/* Right Column - Questions */}
-            <div className="lg:col-span-1 order-1 lg:order-2">
-              <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm sticky top-6">
-                <h3 className="text-base md:text-lg font-bold text-amber-600 mb-3 md:mb-4">
-                  Posez votre question ici
-                </h3>
-                <p className="text-xs md:text-sm mb-3 md:mb-4">
-                  Les questions les plus posées :
-                </p>
-                <div className="space-y-2 md:space-y-3 mb-4 md:mb-6">
-                  <div className="text-xs md:text-sm text-gray-600">
-                    Quel service pour mon entreprise ?
-                  </div>
-                  <div className="text-xs md:text-sm text-gray-600">
-                    Quel lorem ipsum pour mon entreprise ?
-                  </div>
-                  <div className="text-xs md:text-sm text-gray-600">
-                    Quel service pour mon entreprise ?
-                  </div>
-                </div>
-                <Button className="w-full bg-amber-600 hover:bg-amber-700 text-sm">
-                  <Send className="h-3 w-3 md:h-4 md:w-4 mr-2" />
-                  Envoyer
-                </Button>
-              </div>
-            </div>
+            
+            <form className="lg:col-span-1 order-1 lg:order-2">
+  <div className="bg-white p-4 md:p-6 rounded-lg shadow-sm sticky top-6">
+    <h3 className="text-base md:text-lg font-bold text-amber-600 mb-3 md:mb-4">
+      Posez votre question ici
+    </h3>
+    <p className="text-xs md:text-sm mb-3 md:mb-4">
+      Les questions les plus posées :
+    </p>
+    <div className="space-y-2 md:space-y-3 mb-4 md:mb-6">
+      <div className="text-xs md:text-sm text-gray-600 cursor-pointer hover:underline">
+        Quel service pour mon entreprise ?
+      </div>
+      <div className="text-xs md:text-sm text-gray-600 cursor-pointer hover:underline">
+        Quel lorem ipsum pour mon entreprise ?
+      </div>
+      <div className="text-xs md:text-sm text-gray-600 cursor-pointer hover:underline">
+        Quel service pour mon entreprise ?
+      </div>
+      <input
+        type="text"
+        placeholder="Votre question..."
+        className="w-full h-10 border border-gray-300 rounded px-3 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500"
+      />
+    </div>
+    <Button className="w-full bg-amber-600 hover:bg-amber-700 text-sm" type="submit">
+      <Send className="h-3 w-3 md:h-4 md:w-4 mr-2" />
+      Envoyer
+    </Button>
+  </div>
+</form>
+
           </div>
         </div>
       </main>
