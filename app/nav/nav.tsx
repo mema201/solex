@@ -1,10 +1,6 @@
 'use client'
 import Image from "next/image";
-<<<<<<< HEAD
 import Link from "next/link";
-=======
-import Link from "next/link"; 
->>>>>>> 554d4f3 (real site-solex)
 import React, { useState } from "react";
 import "./nav.css";
 
