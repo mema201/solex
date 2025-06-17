@@ -2,7 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import "./nav.css";
+import "./nav.css"; 
+// style
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
