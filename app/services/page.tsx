@@ -331,15 +331,8 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
-                        Solutions juridiques 1
+                      SMARTLEX
                       </h3>
-                      <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. culpa qui officia deserunt mollit anim id
-                        est laborum.
-                        SMARTLEX
-                      </p>
                       <p className="text-xs md:text-sm text-gray-600">
                         Une solution d’intelligence juridique conçue pour les PME et les organisations qui souhaitent transformer le droit en un avantage concurrentiel et un levier stratégique au service de leurs ambitions.
                       </p>
@@ -356,15 +349,8 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-lg md:text-xl font-bold text-amber-600 mb-2">
-                        Solutions juridiques 2
+                        LEGALSHIELD
                       </h3>
-                      <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. culpa qui officia deserunt mollit anim id
-                        est laborum.
-                      LEGALSHIELD
-                      </p>
                       <p className="text-xs md:text-sm text-gray-600">
                         Une solution de sécurité juridique pensée pour offrir aux PME et aux organisations un environnement juridique clair et maîtrisé, limitant l’exposition aux risques. Ce système repose sur une cartographie précise des risques juridiques pour une protection adaptée et proactive.
                       </p>
