@@ -30,24 +30,22 @@ export default function ServicesPage() {
             {/* Left Column - Expertise */}
             <div className="lg:col-span-2 order-2 lg:order-1">
               <h1 className="text-2xl md:text-3xl font-bold text-green-900 mb-4 md:mb-6">
-                Expertise Juridique
+                Nos Damaine d'expertises
               </h1>
               <p className="mb-6 md:mb-8 text-gray-600 text-sm md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                culpa qui officia deserunt mollit anim id est laborum.
+Forts de notre expérience et de notre savoir-faire, nous avons développé une expertise approfondie dans ce domaine. Cette compétence nous permet d’apporter des solutions innovantes, adaptées aux besoins réels et aux enjeux actuels.
               </p>
 
               {/* Expandable Sections */}
               <div className="space-y-3 md:space-y-4 mb-8 md:mb-12">
-                {/* Droit du travail */}
+                {/* Conformité Réglementaire */}
                 <div className="bg-gray-200 rounded-lg">
                   <button
                     onClick={() => toggleSection("droit-travail")}
                     className="w-full flex items-center justify-between p-3 md:p-4 text-left"
                   >
                     <span className="font-semibold text-sm md:text-base">
-                      Droit du travail
+                     Conformité Réglementaire
                     </span>
                     <div className="bg-amber-600 rounded-full p-1 flex-shrink-0 ml-2">
                       {expandedSections.includes("droit-travail") ? (
@@ -60,23 +58,12 @@ export default function ServicesPage() {
                   {expandedSections.includes("droit-travail") && (
                     <div className="px-3 md:px-4 pb-3 md:pb-4 space-y-3 md:space-y-4">
                       <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. culpa qui officia deserunt mollit anim id
-                        est laborum.
+                       Le respect des textes législatifs et réglementaires constitue un pilier essentiel de toute organisation responsable. Il garantit non seulement la conformité aux lois en vigueur, mais aussi la crédibilité et la pérennité des activités. Pour atteindre cet objectif, il est nécessaire de mettre en place une veille juridique efficace afin d’assurer la mise à jour des obligations légales et d’adapter en continu les pratiques internes aux nouvelles exigences
                       </p>
                       <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. culpa qui officia deserunt mollit anim id
-                        est laborum.
+                       Au-delà de la conformité immédiate, une bonne gouvernance implique l’anticipation des évolutions normatives et la préparation aux changements qui peuvent impacter l’activité. Cette démarche proactive permet de réduire l’incertitude et d’éviter des ajustements brusques. Par ailleurs, l’évaluation des risques de sanctions demeure une étape clé pour mesurer les conséquences potentielles d’un manquement et mettre en œuvre des actions correctives ou préventives. Ainsi, l’organisation se protège juridiquement tout en renforçant sa réputation et sa compétitivité.
                       </p>
-                      <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. culpa qui officia deserunt mollit anim id
-                        est laborum.
-                      </p>
+                      
                     </div>
                   )}
                 </div>
@@ -88,7 +75,7 @@ export default function ServicesPage() {
                     className="w-full flex items-center justify-between p-3 md:p-4 text-left"
                   >
                     <span className="font-semibold text-sm md:text-base">
-                      Droit administratif
+                    Gestion des Risques Contractuels
                     </span>
                     <div className="bg-amber-600 rounded-full p-1 flex-shrink-0 ml-2">
                       {expandedSections.includes("droit-administratif") ? (
@@ -99,12 +86,14 @@ export default function ServicesPage() {
                     </div>
                   </button>
                   {expandedSections.includes("droit-administratif") && (
-                    <div className="px-3 md:px-4 pb-3 md:pb-4">
+                    <div className="px-3 md:px-4 pb-3 md:pb-4 space-y-3 md:space-y-4">
                       <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                       L’analyse des engagements contractuels constitue une étape indispensable pour sécuriser les relations entre partenaires commerciaux. Elle permet de vérifier la conformité des accords conclus, d’identifier les obligations de chaque partie et de s’assurer de la cohérence avec les objectifs stratégiques de l’organisation. Dans ce processus, une attention particulière est portée à l’évaluation des clauses à risque, afin de détecter d’éventuelles dispositions pouvant générer des déséquilibres ou exposer l’entreprise à des responsabilités excessives.
                       </p>
+                      <p className="text-xs md:text-sm text-gray-600">
+                       Au-delà de la simple vérification, une démarche proactive vise l’optimisation des conditions contractuelles pour mieux protéger les intérêts de l’organisation et renforcer la solidité des partenariats. Cette optimisation s’accompagne de mécanismes de contrôle et de suivi qui favorisent la prévention des litiges commerciaux. En anticipant les zones de conflit et en clarifiant les responsabilités, l’entreprise réduit les risques juridiques tout en consolidant la confiance avec ses partenaires.
+                      </p>
+                      
                     </div>
                   )}
                 </div>
@@ -116,7 +105,7 @@ export default function ServicesPage() {
                     className="w-full flex items-center justify-between p-3 md:p-4 text-left"
                   >
                     <span className="font-semibold text-sm md:text-base">
-                      Droit des affaires
+                      Protection des Données Personnelles
                     </span>
                     <div className="bg-amber-600 rounded-full p-1 flex-shrink-0 ml-2">
                       {expandedSections.includes("droit-affaires") ? (
@@ -127,12 +116,14 @@ export default function ServicesPage() {
                     </div>
                   </button>
                   {expandedSections.includes("droit-affaires") && (
-                    <div className="px-3 md:px-4 pb-3 md:pb-4">
+                    <div className="px-3 md:px-4 pb-3 md:pb-4 space-y-3 md:space-y-4">
                       <p className="text-xs md:text-sm text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
+                       La conformité à la loi ivoirienne sur les données à caractère personnel constitue une exigence incontournable pour toute organisation qui collecte, traite ou conserve des informations sensibles. Elle implique de mettre en place des politiques et des procédures internes permettant d’assurer la transparence et la légalité des traitements. Dans cette logique, une attention particulière doit être portée à la sécurisation des traitements de données, en adoptant des mesures techniques et organisationnelles pour limiter les risques d’accès non autorisés ou de perte d’informations.
+                       </p>
+                      <p className="text-xs md:text-sm text-gray-600">
+                       Par ailleurs, une gestion rigoureuse des droits des personnes (droit d’accès, de rectification, d’opposition, d’effacement, etc.) s’impose afin de renforcer la confiance des usagers et de respecter les principes éthiques liés à la protection des données. Cette approche préventive contribue également à la prévention des violations de données, en réduisant les risques juridiques, financiers et réputationnels. Ainsi, l’organisation se conforme au cadre légal tout en valorisant sa responsabilité sociétale. 
+                       </p>
+                      
                     </div>
                   )}
                 </div>
@@ -145,11 +136,9 @@ export default function ServicesPage() {
                   >
                     <div className="min-w-0 flex-1">
                       <div className="font-semibold text-sm md:text-base">
-                        SIR MISÈRE
+                       Responsabilité Civile et Pénale
                       </div>
-                      <div className="text-xs md:text-sm text-gray-600">
-                        Lorem Ipsum
-                      </div>
+                     
                     </div>
                     <div className="bg-amber-600 rounded-full p-1 flex-shrink-0 ml-2">
                       {expandedSections.includes("sir-misere") ? (
@@ -160,10 +149,14 @@ export default function ServicesPage() {
                     </div>
                   </button>
                   {expandedSections.includes("sir-misere") && (
-                    <div className="px-3 md:px-4 pb-3 md:pb-4">
+                    <div className="px-3 md:px-4 pb-3 md:pb-4 space-y-3 md:space-y-4">
                       <p className="text-xs md:text-sm text-gray-600">
-                        Culpa qui officia deserunt mollit anim id est laborum.
-                      </p>
+                       L’identification des zones de responsabilité constitue une étape essentielle pour clarifier les obligations et les limites d’action de chaque acteur au sein d’une organisation. Cette démarche permet non seulement de mieux structurer la gouvernance interne, mais aussi de prévenir les ambiguïtés qui pourraient être sources de litiges. Elle s’accompagne de l’évaluation des risques d’engagement, visant à mesurer l’exposition de l’organisation face à d’éventuelles réclamations ou obligations légales.
+                       </p>
+                      <p className="text-xs md:text-sm text-gray-600">
+                       Afin de renforcer cette maîtrise, il est nécessaire de mettre en place des couvertures assurantielles adaptées aux risques identifiés. Ces mécanismes constituent une protection financière efficace en cas d’incident ou de contentieux. Parallèlement, une démarche proactive de prévention des poursuites judiciaires permet de réduire les conflits potentiels grâce à des procédures claires, une documentation rigoureuse et une sensibilisation des acteurs concernés. Ainsi, l’organisation sécurise ses activités tout en renforçant sa crédibilité.
+                       </p>
+                      
                     </div>
                   )}
                 </div>
@@ -189,10 +182,8 @@ export default function ServicesPage() {
                   Intermédiation juridique intelligente
                 </h2>
                 <p className="text-gray-600 text-sm md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                  SOLEX SAS révolutionne l'accès aux professionnels du droit en Côte d'Ivoire grâce à son service d'intermédiation juridique intelligente. Notre plateforme connecte efficacement les justiciables aux bons professionnels, au bon moment, pour les bons besoins.
+                 </p>
               </div>
 
               {/* Découvre l'offre de service */}
@@ -203,20 +194,12 @@ export default function ServicesPage() {
                 <div className="space-y-3 md:space-y-4">
                   <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
                     <p className="text-xs md:text-sm">
-                      Pour nous, chaque client est unique et mérite un service
-                      de l&apos;humain, de la justice et du progrès. Notre
-                      mission ne consiste pas seulement à accompagner
-                      juridiquement nos clients, mais à le faire avec
-                      excellence, intégrité et humanité.
+                      L’intermédiation juridique intelligente de SOLEX SAS est une solution innovante qui vise à rapprocher les citoyens et les organisations des professionnels du droit les plus adaptés à leurs besoins. Grâce à un algorithme d’orientation basé sur 15 critères (domaine juridique, complexité, urgence, budget, localisation, etc.), la plateforme analyse chaque demande et propose une mise en relation qualifiée avec un réseau de plus de 200 professionnels (avocats, notaires, commissaires de justice) répartis sur tout le territoire ivoirien. Elle permet ainsi d’optimiser les délais et les coûts, tout en garantissant un suivi de la satisfaction client et une transparence totale.
                     </p>
                   </div>
                   <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
                     <p className="text-xs md:text-sm">
-                      Pour nous le droit est avant tout un outil au service de
-                      l'humain, de la justice et du progrès. Notre mission ne
-                      consiste pas seulement à accompagner juridiquement nos
-                      clients, mais à le faire avec excellence, intégrité et
-                      humanité.
+                      Ce système bénéficie autant aux clients (gain de temps, économies sur les honoraires, accompagnement personnalisé, qualité garantie) qu’aux professionnels du droit (nouveaux clients qualifiés, visibilité accrue, organisation optimisée). Grâce à des outils technologiques tels qu’une application mobile, un espace client sécurisé et un chatbot juridique, SOLEX rend le droit plus accessible et inclusif. Avec un taux de satisfaction de 95 %, plus de 2 500 clients accompagnés et une couverture nationale, ce modèle contribue à démocratiser l’accès à la justice en Côte d’Ivoire, tout en renforçant la confiance et l’efficacité dans les relations juridiques
                     </p>
                   </div>
                 </div>
@@ -246,30 +229,18 @@ export default function ServicesPage() {
                 <div className="space-y-3 md:space-y-4">
                   <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
                     <p className="text-xs md:text-sm">
-                      Pour nous, chaque client est unique et mérite un service
-                      de l&apos;humain, de la justice et du progrès. Notre
-                      mission ne consiste pas seulement à accompagner
-                      juridiquement nos clients, mais à le faire avec
-                      excellence, intégrité et humanité.
-                    </p>
+                      L’audit juridique préventif de SOLEX SAS est une démarche systématique qui permet d’identifier les risques juridiques potentiels, d’évaluer le niveau de conformité aux obligations légales et d’anticiper les évolutions normatives. Grâce à une méthodologie exclusive combinant approche 360°, diagnostic différentiel et scoring juridique, il offre une vision complète et personnalisée de la conformité réglementaire, des risques contractuels, de la protection des données personnelles ainsi que de la responsabilité civile et pénale. L’objectif est de sécuriser les pratiques, prévenir les litiges et proposer des solutions correctives adaptées à chaque profil.
+                      </p>
                   </div>
                   <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
                     <p className="text-xs md:text-sm">
-                      Pour nous le droit est avant tout un outil au service de
-                      l'humain, de la justice et du progrès. Notre mission ne
-                      consiste pas seulement à accompagner juridiquement nos
-                      clients, mais à le faire avec excellence, intégrité et
-                      humanité.
-                    </p>
+                      SOLEX SAS décline ses services selon les besoins spécifiques de chaque public cible : particuliers, professionnels libéraux, entreprises et associations. À travers une gamme de packs personnalisés, l’audit couvre aussi bien la protection familiale et patrimoniale, la conformité professionnelle, la gouvernance d’entreprise que la transparence associative. Chaque pack inclut un rapport d’audit, des recommandations pratiques et des outils de suivi, avec des tarifs adaptés pour garantir accessibilité et efficacité. Cette offre innovante contribue à renforcer la conformité, réduire les risques et accompagner durablement le développement sécurisé en Côte d’Ivoire.
+                      </p>
                   </div>
                 </div>
               </div>
 
-              <p className="text-gray-600 mb-8 md:mb-12 text-sm md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+            
 
 {/*Accompagnement juridique sur mesure */}
               <div className="mb-8 md:mb-12">
@@ -289,31 +260,18 @@ export default function ServicesPage() {
                 <div className="space-y-3 md:space-y-4">
                   <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
                     <p className="text-xs md:text-sm">
-                      Pour nous, chaque client est unique et mérite un service
-                      de l&apos;humain, de la justice et du progrès. Notre
-                      mission ne consiste pas seulement à accompagner
-                      juridiquement nos clients, mais à le faire avec
-                      excellence, intégrité et humanité.
-                    </p>
+                      SOLEX SAS place l’inclusion juridique au cœur de sa mission, en rendant le droit compréhensible et accessible à tous, sans distinction de niveau d’instruction, de moyens financiers ou de situation géographique. L’entreprise vulgarise les textes juridiques, accompagne la préparation et le suivi des démarches administratives, propose de la médiation extrajudiciaire, des formations pratiques et une veille personnalisée, tout en orientant les bénéficiaires vers les professionnels du droit compétents. Toutefois, elle ne réalise pas les actes réservés aux professions réglementées (consultations juridiques, actes authentiques, représentation en justice, signification d’actes)
+                      </p>
                   </div>
                   <div className="bg-amber-100 border-l-4 border-amber-600 p-3 md:p-4">
                     <p className="text-xs md:text-sm">
-                      Pour nous le droit est avant tout un outil au service de
-                      l'humain, de la justice et du progrès. Notre mission ne
-                      consiste pas seulement à accompagner juridiquement nos
-                      clients, mais à le faire avec excellence, intégrité et
-                      humanité.
+                     Pour répondre aux besoins variés de ses clients, SOLEX a conçu une gamme de packs d’accompagnement adaptés aux particuliers (famille, successions, bail, consommation), aux entreprises (création, conformité, contrats, relations sociales, prévention des litiges), aux associations (création, gouvernance, financement) et aux syndicats (défense des salariés, formation des représentants, communication et stratégie). Chaque pack associe sensibilisation, assistance opérationnelle et orientation spécialisée, afin de sécuriser les démarches juridiques et prévenir les risques tout en renforçant la confiance et la légitimité des acteurs.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <p className="text-gray-600 mb-8 md:mb-12 text-sm md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-
+             
 
               {/* Solutions juridiques */}
               <div>

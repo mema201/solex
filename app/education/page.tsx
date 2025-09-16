@@ -26,47 +26,157 @@ export default function Home() {
   </h1>
 </section>
 
-        {/* Latest Articles */}
-        <section className="container mx-auto px-4 py-8 md:py-12">
+        
+        <section className="container mx-auto px-4 py-3 md:py-12">
           <h2 className="text-xl md:text-2xl font-bold text-green-900 mb-4 md:mb-6">
-            Nos derniers articles
+            Nos articles
           </h2>
-          <p className="mb-6 md:mb-8 max-w-2xl text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. culpa
-            qui officia deserunt mollit anim id est laborum.
-          </p>
-
+          {/* Article 1 */}
+          <h2 className="text-lg md:text-xl font-bold text-green-900 mb-4 md:mb-6">
+            Les Conférences SOLEX SAS
+          </h2>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12 md:mb-16">
             {/* Featured Article */}
             <div>
               <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4">
-                Article à la une titre
+                Description
               </h3>
               <p className="text-sm md:text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                culpa qui officia deserunt mollit anim id est laborum.
+               SOLEX SAS lance une série de conférences juridiques spécialisées destinées aux professionnels de tous secteurs en Côte d’Ivoire. Ces sessions thématiques, animées par des praticiens du droit, des enseignants et des consultants, visent à informer sur les normes juridiques applicables, à équiper les acteurs face aux enjeux de conformité et à outiller les participants pour une utilisation stratégique du droit. Offertes en format hybride (présentiel et digital), les conférences sont conçues selon une pédagogie pratique et ciblée : outils concrets, veille juridique actualisée, et accompagnement post-conférence.
+Elles s’adressent aux dirigeants, DRH, juristes, agents publics, professions réglementées et porteurs de projets dans divers domaines (santé, finance, BTP, agriculture, etc.).  Un certificat de participation est disponible en option. Le lancement officiel est prévu pour août 2025, avec une fréquence d’une conférence par mois, prioritairement dans les villes de l’intérieur du pays.<br />
+Tarifs : <br />
+
+   <strong> Open Access :</strong> Gratuit, sur inscription<br />
+
+    <strong>Premium :</strong> à partir de 25 000 FCFA par participant<br />
+
+    <strong>Pack entreprise :</strong> à partir de 150 000 FCFA pour 10 participants<br />
+
               </p>
             </div>
 
             {/* Article List */}
             <div className="space-y-6 md:space-y-8">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="border-b pb-4 md:pb-6">
+              
+                <div className="border-b pb-4 md:pb-6">
                   <h3 className="text-lg md:text-xl font-bold mb-2">
-                    Titre de l&apos;article
+                    Une pédagogie stratégique tournée vers l’action
                   </h3>
                   <p className="text-xs md:text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. culpa qui officia deserunt mollit anim id est
-                    laborum.
+                    Les conférences privilégient une intelligence juridique appliquée, avec des contenus pensés pour un public métier identifié, sans abstraction théorique. Chaque participant repart avec des supports pratiques et bénéficie d’un suivi post-conférence.
                   </p>
                 </div>
-              ))}
+
+                {/* //article 2 */}
+                <div className="border-b pb-4 md:pb-6">
+                  <h3 className="text-lg md:text-xl font-bold mb-2">
+                    Des partenariats stratégiques pour une portée nationale
+                  </h3>
+                  <p className="text-xs md:text-sm">
+                    Trois grands partenariats en cours :
+
+    Avec la Chambre des Métiers pour former les artisans ;
+
+    Avec les organisations professionnelles régionales ;
+
+    Avec les ordres professionnels (médecins, avocats, architectes, etc.) pour renforcer les compétences juridiques de leurs membres.
+                  </p>
+                </div>
+                  {/* //article 3 */}
+                  <div className="border-b pb-4 md:pb-6">
+                   <h3 className="text-lg md:text-xl font-bold mb-2">
+                    Des thématiques adaptées aux réalités professionnelles
+                   </h3>
+                   <p className="text-xs md:text-sm">
+                   Les sujets abordés couvrent les enjeux juridiques du secteur privé, public et des secteurs régulés : droit du travail, fiscalité, marchés publics, santé, énergie, BTP, télécoms, etc. Les contenus sont actualisés en fonction des réformes et risques émergents.
+                   </p>
+                  </div>
+              
             </div>
           </div>
+
+          {/* article 2 */}
+
+          <h2 className="text-lg md:text-xl font-bold text-green-900 mb-4 md:mb-6">
+            Les Services de Rendez-Vous de SOLEX SAS
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12 md:mb-16">
+            {/* Featured Article */}
+            <div>
+              <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4">
+                Description
+              </h3>
+              <p className="text-sm md:text-base">
+SOLEX SAS propose une large gamme de rendez-vous juridiques, conçus pour répondre aux besoins diversifiés des citoyens, salariés, entrepreneurs et organisations. Ces services, assurés par des juristes qualifiés et expérimentés, reposent sur un principe de progressivité des formats et de souplesse tarifaire, afin de garantir un accès au droit à la fois simple, équitable et inclusif. L’objectif principal est de démocratiser l’accès au droit en Côte d’Ivoire, tout en accordant une attention particulière aux publics vulnérables ou isolés, tels que les jeunes, les femmes, les travailleurs informels, les étudiants, ainsi que les personnes à faible revenu ou en situation de handicap.
+
+Au-delà de l’assistance juridique traditionnelle, SOLEX SAS s’engage également à valoriser le rôle du juriste comme acteur social et économique, en facilitant l’orientation, la compréhension et la prise de décision des justiciables dans toutes leurs démarches. Les rendez-vous peuvent être pris facilement via le site web, par téléphone ou par WhatsApp, et se déroulent selon des formats flexibles : en présentiel, par appel téléphonique ou en visioconférence (Zoom, Google Meet, Teams, WhatsApp Call), pour s’adapter aux contraintes et préférences de chacun. Selon les situations, les clients bénéficient d’une orientation orale, d’une synthèse écrite, d’un rapport d’analyse détaillé ou encore de modèles de documents types. L’ensemble du dispositif s’inscrit dans une démarche de proximité, de fiabilité et de clarté, afin de rendre le droit accessible à tous et de renforcer la confiance des citoyens envers les services juridiques professionnels.
+</p>
+            </div>
+
+            {/* Article List */}
+            <div className="space-y-6 md:space-y-8">
+              
+                <div className="border-b pb-4 md:pb-6">
+                  <h3 className="text-lg md:text-xl font-bold mb-2">
+                  SOLEX ÉCOUTE
+                  </h3>
+                  <p className="text-xs md:text-sm">
+                    Un échange de 5 à 10 minutes avec un juriste par téléphone pour répondre à une question ponctuelle et orienter vers le bon professionnel du droit.<br/>
+                    <strong>Tarif :</strong> Gratuit (2 fois/mois), puis 5 000 FCFA à partir de la 3ᵉ demande
+                    </p>
+                </div>
+
+                {/* //article 2 */}
+                <div className="border-b pb-4 md:pb-6">
+                  <h3 className="text-lg md:text-xl font-bold mb-2">
+                    SOLEX ENTRETIEN
+                  </h3>
+                  <p className="text-xs md:text-sm">
+Un accompagnement de 15 à 60 minutes avec un juriste expert, en présentiel ou visioconférence, pour clarifier la situation et explorer les options juridiques possibles.<br/>
+<strong>Tarif :</strong> 
+<br/>Standard (15-25 min) : 10 000 FCFA<br/>
+Premium (25-45 min) : 35 000 FCFA<br/>
+Projet structurant (45-60 min) : 75 000 FCFA<br/>
+<strong>Réduction :</strong> Startups : -15%; 
+
+ Promoteur de projet d’entreprise : -20%; 
+
+ Association / ONG : -30%; 
+
+ Étudiants entrepreneurs : -40% 
+</p>
+                </div>
+                  {/* //article 3 */}
+                  <div className="border-b pb-4 md:pb-6">
+                   <h3 className="text-lg md:text-xl font-bold mb-2">
+                    SOLEX ANALYSE
+                   </h3>
+                   <p className="text-xs md:text-sm">
+                   Une étude approfondie rédigée , livrée en 2 à 10 jours ouvrés, fournissant une analyse juridique détaillée, des références, et des pistes de décision stratégique.<br/>
+<strong>Tarif :</strong> <br/>
+Standard (5 jours) : 75 000 FCFA<br/>
+Premium (10 jours) : 125 000 FCFA <br/>
+Express (48h) : 150 000 FCFA<br/>
+                   </p>
+                  </div>
+               {/* //article 4 */}
+                  <div className="border-b pb-4 md:pb-6">
+                   <h3 className="text-lg md:text-xl font-bold mb-2">
+                    SOLEX MEET
+                   </h3>
+                   <p className="text-xs md:text-sm">
+                   Un rendez-vous de 25 à 45 minutes, réunissant 5 à 20 personnes partageant une problématique juridique similaire. Animé par un juriste, il permet un éclairage collectif et une stratégie commune.<br/>
+<strong>Tarif :</strong> <br/>
+Standard : 5 000 FCFA<br/>
+Solidaire : 2 500 FCFA <br/>
+Pro : 10 000 FCFA<br/>
+                   </p>
+                  </div>
+            </div>
+          </div>
+
         </section>
 
         {/* Multimedia Content */}
