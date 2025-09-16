@@ -5,10 +5,8 @@ const Contactform = () => {
   return (
     <div className="container-cform">
       <div className="contact-form">
-        <h2>Contactez-nous</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <h1>Contactez-nous</h1>
+        
         <div style={{ display: "flex", gap: "20px" }}>
           <input type="text" placeholder="Nom" />
           <input type="email" placeholder="Votre email" />

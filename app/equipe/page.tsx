@@ -11,32 +11,26 @@ export default function Equipe(){
        <Nav />
             <div className="header-image">
                 <h2>A propos de nous</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>
+SOCIAL LEX EXPERTISES SAS est une société d’accompagnement et d’intermédiation juridique pour entreprises, organisations et particuliers, offrant des services innovants et accessibles tout en respectant les compétences des professions réglementées.</p>
             
             </div>
             <div className="image-container">
                 <div className="image"></div>
                 <div className="image-texte">
-                   <h3>Lorem ipsum</h3>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <h3>Notre Vision</h3>
+                   <p>Être le partenaire de référence auprès des entreprises, des organisations et des particuliers dans la résolution de problèmes juridiques et stratégiques simples ou complexes tout en les aidant à anticiper leurs risques juridiques et stratégiques.</p>
                 </div>
             </div>
             <div className="image-container">
                <div className="image-texte">
-                   <h3>Lorem ipsum</h3>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <h3>Nos Objectifs</h3>
+                   <p>L’objectif de SOLEX SAS est d’accompagner ses clients dans leurs enjeux juridiques et stratégiques en proposant des solutions personnalisées et innovantes, tout en facilitant la gestion des risques, des démarches administratives et la résolution amiable des conflits, et en renforçant les compétences juridiques à travers des formations adaptées.</p>
                 </div>
                 <div className="image imagep"></div>
                 
             </div>
-            <div className="image-container image1">
-                <div className="image"></div>
-                <div className="image-texte">
-                   <h3>Lorem ipsum</h3>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  culpa qui officia deserunt mollit anim id est laborum.</p>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
+            
              <div className="image-container image2">
                 <div className="image"></div>
                 <div className="image-texte ">
