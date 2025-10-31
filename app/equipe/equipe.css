@@ -17,9 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid;
     margin-top: 100px;
-    border-radius: 10px;
     background: url('/image/equipe-header.jpg');
     background-size: cover;
     background-position: center;
@@ -92,7 +90,7 @@
     padding-left: 1.5vw;
 }
 .container2 .equipe-container {
-    width: 95%;
+    width: 90%;
     margin: auto;
     text-align: start;
     margin-bottom: 80px;
