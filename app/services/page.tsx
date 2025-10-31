@@ -24,7 +24,7 @@ export default function ServicesPage() {
     <div className="min-h-screen flex flex-col">
       <Nav />
       {/* Main Content */}
-      <main className="flex-1 bg-gray-50 sm:mt-[27vw] lg:mt-[8vw] mt-[37vw]">
+      <main className="flex-1 bg-gray-50 mt-[120px] ">
         <div className="container mx-auto px-4 py-6 md:py-12">
           <div className="grid lg:grid-cols-3 gap-6 lg:gap-12">
             {/* Left Column - Expertise */}

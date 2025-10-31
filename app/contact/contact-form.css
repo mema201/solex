@@ -15,7 +15,8 @@
   border-radius: 10px;
 }
 
-.container-cform .contact-form h2 {
+.container-cform .contact-form h1 {
+  font-size: 25px;
   margin-top: 0;
 }
 
@@ -94,9 +95,4 @@
 }
 .contact-form h1{
   font-size: 1.5vw;
-}
-@media (max-width: 1024px){
-  .contact-form{
-    margin-top: 20vw;
-  }
 }

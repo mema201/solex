@@ -2,8 +2,7 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(#fff 40%, #D3DCD7 95%, #fff);
-    border: 1px solid;
-    margin-top: 2vw;
+    margin-top: 3vw;
 }
 .container2 h3 {
     color: #0D3D20;
@@ -17,7 +16,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 130px;
     background: url('/image/equipe-header.jpg');
     background-size: cover;
     background-position: center;
@@ -36,8 +35,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    padding: 20px 0;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -219,9 +217,7 @@ width: 90%;
     grid-template-columns: repeat(1,1fr);
     grid-gap: 10px;
 }
-    .container2{
-        margin-top: 15vw;
-    }
+
 
     .container2 .header-image h2 {
         font-size: 35px !important;
@@ -252,11 +248,9 @@ width: 90%;
 
 /* ✅ Responsive mobile */
 @media (max-width: 768px) {
-    .container2{
-        margin-top: 20vw;
-    }
+
     .container2 .header-image {
-        margin-top: 60px;
+
         height: 160px;
     }
     .container2 .header-image h2 {
@@ -284,9 +278,7 @@ width: 90%;
 
 }
 @media (max-width: 490px){
-    .container2{
-        margin-top: 27vw;
-    }
+
      .container2 .image2 .image{
          width: 100%;
      }

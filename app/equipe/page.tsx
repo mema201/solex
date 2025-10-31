@@ -95,7 +95,7 @@ export default function Equipe(){
                       <div className="wrapper">
                         <div className="profile">
                             <img
-                            src="/image/passe.jpg"
+                            src="/image/dev.jpg"
                             className="thumbnail"
                             />
 

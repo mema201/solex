@@ -5,7 +5,7 @@
     border: 1px solid;
 }
 .page1{
-    margin-top: 9vw;
+    margin-top: 150px;
 }
 .container-cpage {
   display: flex;
@@ -44,8 +44,6 @@ align-items: center;
     padding: 10px 15px;
 }
 .container-cpage .span1 {
-
-
   width: 50px;
   background-color: #c8d7ca;
   padding: 10px 15px;
@@ -80,4 +78,14 @@ align-items: center;
 .container-cpage .social-icons img:hover {
   filter: grayscale(0%);
 }
-@media(max )
+@media(max-width: 1024px){
+  .container-cpage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-cpage .left,
+  .container-cpage .right {
+    margin: 10px 0;
+  }
+}

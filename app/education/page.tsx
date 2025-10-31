@@ -14,7 +14,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Nav />
       {/* Main Content */}
-<main className="sm:mt-[27vw] lg:mt-[8vw] mt-[37vw] ">
+<main className="mt-[120px] ">
 
         {/* Hero Section */}
         <section
