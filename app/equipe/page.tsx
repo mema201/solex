@@ -5,6 +5,7 @@ import Nav from "../nav/nav"
 import "./equipe.css"
 import Link from "next/link"
 
+
 export default function Equipe(){
     return(
     <div className="container2">
@@ -44,37 +45,74 @@ SOCIAL LEX EXPERTISES SAS est une société d’accompagnement et d’intermédi
                 <h2>Notre équipe</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  culpa qui officia deserunt mollit anim id est laborum.</p>
                 <div className="equipe-grid">
-                    <div className="equipe">
-                        <img src="/image/e-business-dev .jpg"/>
-                        <h3>E-buisness developper</h3>
-                        <p>conçoit des stratégies digitales pour optimiser la présence en ligne d’une entreprise.</p>
-                    </div>
-                    <div className="equipe">
-                        <img src="/image/image2 (2).jpg"/>
-                        <h3>George Mermoz</h3>
-                        <p>Directeur des lorems ipsum dolor si amet ut labore</p>
-                    </div>
-                    <div className="equipe">
-                        <img src="/image/image2 (2).jpg"/>
-                        <h3>George Mermoz</h3>
-                        <p>Directeur des lorems ipsum dolor si amet ut labore</p>
-                    </div>
-                    <div className="equipe">
-                        <img src="/image/image2 (2).jpg"/>
-                        <h3>George Mermoz</h3>
-                        <p>Directeur des lorems ipsum dolor si amet ut labore</p>
-                    </div>
-                    <div className="equipe">
-                        <img src="/image/image2 (2).jpg"/>
-                        <h3>George Mermoz</h3>
-                        <p>Directeur des lorems ipsum dolor si amet ut labore</p>
-                    </div>
-                    <div className="equipe">
-                        <img src="/image/image2 (2).jpg"/>
-                        <h3>George Mermoz</h3>
-                        <p>Directeur des lorems ipsum dolor si amet ut labore</p>
-                    </div>
-                    
+                  
+                    <div className="wrapper">
+                        <div className="profile">
+                            <img
+                            src = "/image/Image-directrice.jpg"
+                            className="thumbnail"
+                            />
+
+
+                            <h1 className="name">Beverly Little</h1>
+                            <p className="title">Juriste</p>
+                            <p className="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore labore reiciendis accusamus optio facilis, excepturi aliquid possimus veritatis. Illo dolor asperiores quas quibusdam iusto eos repudiandae fugit, nam quidem!
+                            </p>
+                        </div>
+                      </div>  
+                        
+                        <div className="wrapper">
+                        <div className="profile">
+                            <img
+                            src="/image/assist-admin.jpg"
+                            className="thumbnail"
+                            />
+
+
+                            <h1 className="name">Beverly Little</h1>
+                            <p className="title">Juriste</p>
+                            <p className="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore labore reiciendis accusamus optio facilis, excepturi aliquid possimus veritatis. Illo dolor asperiores quas quibusdam iusto eos repudiandae fugit, nam quidem!
+                            </p>
+                        </div>
+                      </div>  
+
+                      <div className="wrapper">
+                        <div className="profile">
+                            <img
+                            src="/image/juriste.jpg"
+                            className="thumbnail"
+                            />
+
+
+                            <h1 className="name">Beverly Little</h1>
+                            <p className="title">Juriste</p>
+                            <p className="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore labore reiciendis accusamus optio facilis, excepturi aliquid possimus veritatis. Illo dolor asperiores quas quibusdam iusto eos repudiandae fugit, nam quidem!
+                            </p>
+                        </div>
+                      </div>  
+
+                      <div className="wrapper">
+                        <div className="profile">
+                            <img
+                            src="/image/passe.jpg"
+                            className="thumbnail"
+                            />
+
+
+                            <h1 className="name">Beverly Little</h1>
+                            <p className="title">Business Developper</p>
+                            <p className="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempore labore reiciendis accusamus optio facilis, excepturi aliquid possimus veritatis. Illo dolor asperiores quas quibusdam iusto eos repudiandae fugit, nam quidem!
+                            </p>
+                        </div>
+                      </div>  
+
+                      
+
+                       
                 </div>
             </div>
             <footer className="bg-green-900 text-white py-8 md:py-12">
