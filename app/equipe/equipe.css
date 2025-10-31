@@ -68,11 +68,7 @@
     font-size: 14px;
     color: #C38C2C;
 }
-.imagep {
-    background-image: url('/image/image3 (2).jpg');
-    background-size: cover;
-    background-position: center;
-}
+
 .container2 .image1 .image-texte p {
     margin-bottom: 20px;
     padding-left: 10px;
@@ -82,8 +78,8 @@
     height: 170px;
 }
 .container2 .image2 .image {
-    height: 27vw;
-    width: 30%;
+    height: 450px;
+    width: 400px;
     background: url("/image/image-directrice-vrai.jpg");
     background-size: cover;
     background-position: top;
@@ -117,6 +113,7 @@
     margin: auto;
     gap: 20px;
 
+
 }
 .cont2{
     display: grid;
@@ -148,7 +145,7 @@ width: 90%;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
-  
+  margin: auto !important;
 }
 
 /* PROFILE */
@@ -245,13 +242,7 @@ width: 90%;
         flex-direction: column;
         align-items: center;
     }
-    .container2 .image,
-    .container2 .image2 .image {
-        width: 60%;
-        height: 400px !important;
-        background-position: top;
 
-    }
     .container2 .image-texte {
         width: 90%;
     }
@@ -289,7 +280,7 @@ width: 90%;
         font-size: 20px;
     }
     .equipe-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     
 
@@ -300,7 +291,6 @@ width: 90%;
     }
      .container2 .image2 .image{
          width: 100%;
-        height: 150px;
      }
     .container2 .header-image{
         width: 100%;
