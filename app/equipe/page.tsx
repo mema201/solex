@@ -12,12 +12,12 @@ export default function Equipe(){
        <Nav />
             <div className="header-image">
                 <h2>A propos de nous</h2>
-                <p>
-SOCIAL LEX EXPERTISES SAS est une société d’accompagnement et d’intermédiation juridique pour entreprises, organisations et particuliers, offrant des services innovants et accessibles tout en respectant les compétences des professions réglementées.</p>
-            
+
+                
             </div>
+            <div className="cont2">
             <div className="image-container">
-                <div className="image"></div>
+
                 <div className="image-texte">
                    <h3>Notre Vision</h3>
                    <p>Être le partenaire de référence auprès des entreprises, des organisations et des particuliers dans la résolution de problèmes juridiques et stratégiques simples ou complexes tout en les aidant à anticiper leurs risques juridiques et stratégiques.</p>
@@ -27,14 +27,12 @@ SOCIAL LEX EXPERTISES SAS est une société d’accompagnement et d’intermédi
                <div className="image-texte">
                    <h3>Nos Objectifs</h3>
                    <p>L’objectif de SOLEX SAS est d’accompagner ses clients dans leurs enjeux juridiques et stratégiques en proposant des solutions personnalisées et innovantes, tout en facilitant la gestion des risques, des démarches administratives et la résolution amiable des conflits, et en renforçant les compétences juridiques à travers des formations adaptées.</p>
-                </div>
-                <div className="image imagep"></div>
-                
+                </div>    
             </div>
-            
+            </div>
              <div className="image-container image2">
                 <div className="image"></div>
-                <div className="image-texte ">
+                <div className="image-texte m">
                    <h3>Vision et motivation du fondateur</h3>
                    <p>SOCIAL LEX EXPERTISES SAS est née de l’ambition de son fondateur de démocratiser l’accès au droit et de lutter contre les inégalités juridiques. Conscient des obstacles que rencontrent de nombreux individus, entreprises et organisations pour comprendre et faire valoir leurs droits, le fondateur a identifié un besoin pressant d’inclusion juridique.</p>
                   <h3 className="titre">Bedina GOUANDA</h3>
