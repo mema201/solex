@@ -117,7 +117,7 @@ export default function Equipe(){
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {/* Column 1 */}
           <div>
-            <h3 className="font-bold mb-3 md:mb-4 text-sm md:text-base">
+            <h3 className="v font-bold mb-3 md:mb-4 text-sm md:text-base">
               Liens utiles
             </h3>
             <p className="text-xs md:text-sm mb-3 md:mb-4">
@@ -145,7 +145,7 @@ export default function Equipe(){
 
           {/* Column 2 */}
           <div>
-            <h3 className="font-bold mb-3 md:mb-4 text-sm md:text-base">
+            <h3 className="v  font-bold mb-3 md:mb-4 text-sm md:text-base">
               Termes
             </h3>
             <ul className="space-y-1 md:space-y-2 text-xs md:text-sm">
@@ -194,7 +194,7 @@ export default function Equipe(){
 
           {/* Column 3 */}
           <div>
-            <h3 className="font-bold mb-3 md:mb-4 text-sm md:text-base">
+            <h3 className="v font-bold mb-3 md:mb-4 text-sm md:text-base text-white">
               Abonnez-vous à notre Newsletter
             </h3>
             <div className="flex flex-col sm:flex-row gap-2">
