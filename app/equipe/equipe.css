@@ -10,7 +10,7 @@
 .container2 .header-image {
     width: 100%;
     margin: auto;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,11 +74,13 @@
     height: 170px;
 }
 .container2 .image2 .image {
-    height: 450px;
-    width: 400px;
-    background: url("/image/image-directrice-vrai.jpg");
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background: url("/image/image-directrice-v.png");
     background-size: cover;
-    background-position: top;
+    background-position: center;
+    background-position: right;
 }
 .container2 .image2 {
     margin-bottom: 100px;
@@ -279,6 +281,7 @@ width: 90%;
 }
 @media (max-width: 490px){
 
+   
      .container2 .image2 .image{
          width: 100%;
      }
@@ -291,5 +294,8 @@ width: 90%;
     .equipe-grid {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+     p{
+        font-size: 15px !important;
     }
 }
